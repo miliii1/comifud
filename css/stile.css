@@ -1,0 +1,173 @@
+.btn-main, .btn-sec, .btn-sec-s, .btn-main-s {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #F56217;
+  color: white;
+  border: solid 1px #F56217;
+}
+.btn-main:hover, .btn-sec:hover, .btn-sec-s:hover, .btn-main-s:hover {
+  background-color: #0B486B;
+  color: #F56217;
+}
+.btn-main-s {
+  font-size: 0.85rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #f88951;
+  text-decoration: underline;
+}
+.btn-sec-s {
+  font-size: 0.85rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1rem;
+  list-style: none;
+  display: inline;
+}
+.main-menu li a {
+  color: white;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .title-feat {
+  color: white;
+  text-align: center;
+  padding: 1rem 1rem 0rem;
+}
+.feature i {
+  font-size: 5rem;
+  padding: 0rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: white;
+  font-size: 7rem;
+  padding: 0;
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+.icon-desc .cta {
+  color: white;
+}
+
+.btn-order {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #F56217;
+  color: white;
+  border: solid 1px #F56217;
+  font-size: 1.5rem;
+  padding: 0.1rem 1rem;
+}
+.btn-order:hover {
+  background-color: #F56217;
+  color: #0B486B;
+  box-shadow: rgba(247, 117, 53, 0.6588235294) 0px 6px 6px, rgba(253, 124, 38, 0.432) 0px 6px 6px;
+  transform: translateY(-0.25rem);
+}
+
+body {
+  background-color: #0B486B;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #F56217;
+}
+
+.logo a img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 80%;
+  padding: 5rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-img img {
+  max-width: 15rem;
+  height: 25rem;
+  transform: rotate(4deg);
+  position: absolute;
+  z-index: -1;
+}
+.sec-home .home-imag img {
+  max-width: 15rem;
+  height: 25rem;
+  transform: rotate(-4deg);
+}
+.sec-home .home-title {
+  color: #F56217;
+  width: 30rem;
+  font-size: 2rem;
+}
+.sec-home p {
+  font-size: 1.25rem;
+  color: white;
+  padding-right: 5rem;
+}
+
+.sec-call-to-action .title-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  color: white;
+}
+.sec-call-to-action .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 3rem;
+}
+.sec-call-to-action .cards .card {
+  background-color: transparent;
+  border-color: black;
+  height: 15rem;
+}
+.sec-call-to-action .cards .card-body {
+  margin-left: 5rem;
+}
+
+/*# sourceMappingURL=stile.css.map */
