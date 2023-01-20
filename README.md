@@ -1,5 +1,10 @@
-# Comifud
-Es un sitio web de un restaurant en donde se encuentran diferentes comidas y delicias, la persona puede elegir que quiere, al ordenar un platillo, se le realizará el envío a su hogar!
+# Comifud 🍔
+*Es un sitio web de un restaurant en donde se encuentran diferentes comidas y delicias, la persona puede elegir que quiere, ordena el platillo y se le realizará el envío a su hogar!*
+
+# Tecnologías utilizadas
+- HTML
+- SASS
+- BOOTSTRAP
 
 ![image](https://user-images.githubusercontent.com/80269896/213816075-f0dd59ac-0d11-4e4e-a442-4a6bae718d23.png)
 ![image](https://user-images.githubusercontent.com/80269896/213816125-f56c021e-bc23-46b8-8392-4be75e62776a.png)
